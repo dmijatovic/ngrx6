@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after{
+  margin:0; padding:0;
+  box-sizing: inherit;
+}
+ 
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html{
+  //100%=16px=1rem;
+  font-size: 100%;
+}
+
+body{
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}

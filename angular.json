@@ -23,7 +23,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/main.scss"
             ],
             "scripts": []
           },
@@ -44,6 +44,18 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "dev": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.dev.ts"
+                }
+              ],
+              "sourceMap": true,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true
             }
           }
         },
@@ -55,6 +67,9 @@
           "configurations": {
             "production": {
               "browserTarget": "ng6rx:build:production"
+            },
+            "dev":{
+              "browserTarget": "ng6rx:build:dev"
             }
           }
         },
@@ -72,7 +87,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.css"
+              "src/main.scss"
             ],
             "scripts": [],
             "assets": [

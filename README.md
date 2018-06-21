@@ -1,6 +1,11 @@
-# Ng6rx
+# Ngrx Angular 6 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+
+In this project I am testing ngrx version 6. What is tested?
+
+- @ngrx/store: minimum store implementation but including lazy loading store parts when modules are lazy loaded
+- @ngrx/effect: for async calls. In this demo we simple use setTimeout to simulate async calls
 
 ## Development server
 

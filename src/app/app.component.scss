@@ -1,0 +1,42 @@
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &-page{
+    display: flex;
+  }  
+
+  &-title{
+    font-size: 4rem;
+    padding: 1rem;
+  }
+
+  &-counter-section{
+    padding: 2rem;
+  }
+
+  &-counter-msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    border: 1px solid #efefef;
+  }
+  &-counter{
+    font-size: 12rem;
+    text-align: center;
+    //border: 1px solid red;
+  }
+
+  &-user{
+    padding: 2rem;
+  }
+}
+
+.btn{
+  min-width: 9rem;
+  padding: 1rem;
+  margin: 1rem;
+}
